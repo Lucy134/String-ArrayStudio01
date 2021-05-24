@@ -7,9 +7,9 @@ if(x > str.length){
   snark = "I'm sure you thought you were being very clever putting in a number bigger than the word, too bad I changed your number.";
 }
 
-let sStr = str.substring(0,x);
+
 let newStr = str.substring(x,str.length);
-let str1 = newStr.concat(sStr);
+let str1 = newStr.concat(str.substring(0,x));
 //a) Use string methods to remove the first three characters from the string and add them to the end.
 //Hint - define another variable to hold the new string or reassign the new string to str.
 
